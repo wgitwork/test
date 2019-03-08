@@ -73,17 +73,14 @@
 				curr: 1,//起始页
 				first: '首页',
 				last: '尾页',
-<<<<<<< HEAD
 				groups: 3,  //连续出现的页码个数
 				layout: ['count', 'prev', 'page', 'next', 'skip'],
 				limit: nums,//每页显示条数
 				jump: function(obj, first) {  //切换分页执行的回调函数
-=======
 				groups: 3,
 				layout: ['count', 'prev', 'page', 'next', 'skip'],
 				limit: nums,//每页显示条数
 				jump: function(obj, first) {
->>>>>>> 9e646f1ffb72ebeff3bc02870b658462c49ff16b
 					console.log(obj.curr);
 					$("#test").html(thisDate(obj.curr));
 				}
